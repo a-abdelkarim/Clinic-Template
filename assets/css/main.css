@@ -50,6 +50,11 @@ li a {
 
 a {
     color: darkcyan;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 a:hover {
@@ -62,6 +67,11 @@ a:hover {
 
 .pagination {
     border-radius: 0px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 .pagination>.active>a,
@@ -72,6 +82,11 @@ a:hover {
 .pagination>.active>span:focus {
     background-color: #46A1B4;
     border-color: #5FA8AB;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 .pagination>li>a,
@@ -155,19 +170,36 @@ h6 {
 }
 
 .navbar-nav li {
-    /* border-right: 1px solid #54aec2; */
+    /*border-right: 1px solid #54aec2;
+    */
     padding: 7px 0px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 .navbar-default .navbar-nav li a {
     text-shadow: 1px 1px 0px #20606D;
     color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 .navbar-default .navbar-nav>.active {
-    /*background-color: rgba(5, 207, 252, 0.62);*/
+    /*background-color: rgba(5, 207, 252, 0.62);
+    */
     background-color: rgba(76, 214, 245, 0.62);
     border-top: 4px ridge rgb(5, 207, 252);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -199,6 +231,11 @@ li:last-child {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: transparent;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .navbar-default .navbar-nav>.active:hover {
@@ -212,6 +249,11 @@ li:last-child {
 .blog-content aside .widget,
 .faq-content aside .widget {
     margin-bottom: 40px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .widget h4,
@@ -246,21 +288,35 @@ li:last-child {
 
 .widget ul li {
     border-bottom: 1px solid #f3f3f3;
-    -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transition: 0.5s all;
     transition: all 0.2s ease-in-out;
     list-style: none;
     display: block;
     padding: 10px 20px 10px 0;
     position: relative;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 .widget ul li:hover {
     background: #f8f8f8;
     padding-left: 10px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 .widget ul li:hover a {
     text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
 }
 
 .widget ul li:before {
@@ -282,6 +338,11 @@ li:last-child {
     margin: 0 3px 8px 0;
     font-size: 14px !important;
     display: inline-block;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
 }
 
 
